@@ -1,6 +1,6 @@
 <div align="center">
 
-# [NIPS 2025🔥] ReCon-GS: Continuum-Preserved Guassian Streaming for Fast and Compact Reconstruction of Dynamic Scenes
+# [NeurIPS 2025🔥] ReCon-GS: Continuum-Preserved Guassian Streaming for Fast and Compact Reconstruction of Dynamic Scenes
 
 [![Project Website](https://img.shields.io/badge/🌐-Project%20Website-deepgray)](https://github.com/jyfu-vcl/ReCon-GS/)
 
