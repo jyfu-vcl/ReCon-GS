@@ -3,6 +3,7 @@
 # [NeurIPS 2025🔥] ReCon-GS: Continuum-Preserved Guassian Streaming for Fast and Compact Reconstruction of Dynamic Scenes
 
 [![Project Website](https://img.shields.io/badge/🌐-Project%20Website-deepgray)](https://github.com/jyfu-vcl/ReCon-GS/)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.24325-b31b1b.svg)](https://arxiv.org/abs/2509.24325 )
 
 [Jiaye Fu](https://scholar.google.com/citations?user=9qBFfMgAAAAJ&hl=en), Qiankun Gao, Chengxiang Wen, Yanmin Wu, Siwei Ma, Jiaqi Zhang, [Jian Zhang](https://jianzhang.tech/)
 
