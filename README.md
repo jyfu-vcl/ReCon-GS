@@ -27,15 +27,33 @@ Extensive experiments on three widely used datasets demonstrate that, compared t
 ## 🚩 News
 
 - 09.19 "ReCon-GS" is accepted by **NeurIPS 2025 poster**.
+- 09.25 Release the paper
+- 12.20 Release the code
 
-## ✏️ To Do List
+## Instruction's to run the code
 
-- [ ] Release the paper
-- [ ] Release the code
+Our code is built based on official libgs repository. Please follow the instructions from [libgs](https://github.com/Awesome3DGS/libgs) to install the required library.
+
+Please familiarize yourself with it before running the experiments.
+
+1. Install dependencies
+
+   ```bash
+   pip install .
+   ```
+
+2. Run pipeline
+
+   ```
+   python main.py --config=config/dynerf.yaml --data.root=<PATH TO SCENE ROOT>
+   ```
+
+   The `config` directory contains pre-defined configurations for reproducing the results reported in the paper.
+
 
 ## Acknowledgement
 
-We appreciate the releasing codes of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [libgs](https://github.com/Awesome3DGS/libgs).
+We appreciate the releasing codes of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [libgs](https://github.com/Awesome3DGS/libgs). We also want to express our greatest gratitude to 
 
 
 [//]: # ()
