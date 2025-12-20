@@ -55,6 +55,16 @@ Please familiarize yourself with it before running the experiments.
 
 We appreciate the releasing codes of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [libgs](https://github.com/Awesome3DGS/libgs). We also want to express our greatest gratitude to [Junoh Lee](cywon1997@gm.gist.ac.kr) for his assistance.
 
+# Citation
+
+```bibtex
+@inproceedings{recongs2025,
+   title={ReCon-GS: Continuum-Preserved Gaussian Streaming for Fast and Compact Reconstruction of Dynamic Scenes}, 
+   author={Jiaye Fu and Qiankun Gao and Chengxiang Wen and Yanmin Wu and Siwei Ma and Jiaqi Zhang and Jian Zhang},
+   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+   year = {2025}
+}
+```
 
 [//]: # ()
 [//]: # (---)
