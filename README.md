@@ -51,6 +51,15 @@ Please familiarize yourself with it before running the experiments.
    The `config` directory contains pre-defined configurations for reproducing the results reported in the paper.
 
 
+## ⚠️ Important Note on Storage Calculation
+
+**Recommendation**: To align your results with the paper, we strongly recommend adopting the same approach:
+  1. Serialize the relevant Gaussian attributes and deformation parameters for each frame.
+  2. Measure the size of the saved files on the disk.
+  3. Use these actual file sizes as your storage metric.
+
+
+
 ## Acknowledgement
 
 We appreciate the releasing codes of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [libgs](https://github.com/Awesome3DGS/libgs). We also want to express our greatest gratitude to [Junoh Lee](cywon1997@gm.gist.ac.kr) for his assistance.
