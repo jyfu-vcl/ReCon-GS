@@ -279,21 +279,6 @@ class Module(BaseModule):
             time_stats = self.timer.display()
             logging.info(f"Time stats at {self.global_step} step:\n{time_stats}\n")
             self.timer.reset()
-        
-        if self.trainer.is_last_step:
-            storage = 0
-            gs_storage = 0
-            gs_incr_storage = 0
-            deform_storage = 0
-            if self.trainer.is_first_frame:
-                gs_storage = self.gaussians.get_xyz.shape[0] * 48
-                storage += gs_storage
-            else:
-                gs_incr_storage = self.gaussians_incr.get_xyz.shape[0] * 48
-                storage += gs_incr_storage
-                deform_storage = self.deform.get_grid_num * 28
-                storage += deform_storage
-            logging.info(f"Storage at frame {self.trainer.current_frame}: {storage / (2 ** 20)} MB; (gs: {gs_storage / (2**20)}MB; gs_incr: {gs_incr_storage / (2**20)}MB; deform: {deform_storage / (2**20)}MB)\n")
 
     def validation_step(
         self, viewpoint: TensorSpace, idx: int, loader_idx: int
